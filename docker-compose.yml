@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ocr-api:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+      - ./database.sqlite:/usr/src/app/database.sqlite
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    restart: always

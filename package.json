@@ -1,0 +1,26 @@
+{
+  "name": "ocr-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "pdf-img-convert": "^2.0.0",
+    "sharp": "^0.34.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^7.0.0",
+    "uuid": "^13.0.0"
+  }
+}
